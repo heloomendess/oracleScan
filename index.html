@@ -6,9 +6,16 @@
   <title>Oracle Linux Basic Support</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
-<body style="font-family: 'Roboto', sans-serif; background-color: #ffffff; margin: 0; padding: 0; color: #333; min-height: 100vh;">
+<body style="font-family: 'Roboto', sans-serif; background-color: #f5f5f5; margin: 0; padding: 20px 0; color: #333; min-height: 100vh;">
 
-  <div style="max-width: 1200px; margin: 0 auto; padding: 40px 20px; display: flex; flex-wrap: wrap; gap: 40px;">
+  <!-- DIV PRINCIPAL COM BORDA VISÍVEL -->
+  <div style="max-width: 1200px; margin: 30px auto; padding: 40px; display: flex; flex-wrap: wrap; gap: 40px; 
+              border: 5px solid #c74634;
+              border-radius: 8px;
+              background-color: #ffffff;
+              box-shadow: 0 0 15px rgba(0,0,0,0.1);">
+    
+    <!-- Conteúdo existente (mantido igual) -->
     <div style="flex: 2; min-width: 300px;">
       <h1 style="font-size: 2.5em; margin-bottom: 0.5em; font-weight: bold;">Oracle Linux Basic Support</h1>
       <p style="font-size: 1.1em; line-height: 1.6;">
@@ -18,29 +25,31 @@
       </p>
       <p style="font-size: 1.1em; line-height: 1.6;">
         O software Oracle Linux é fornecido gratuitamente. As imagens de instalação ISO estão disponíveis em
-        <a href="https://yum.oracle.com/" target="_blank" style="color: #0073e6; text-decoration: none; text-decoration: underline;">Oracle Linux Yum server</a> e
-        <a href="https://edelivery.oracle.com/osdc/faces/Home.jspx" target="_blank" style="color: #0073e6; text-decoration: none; text-decoration: underline;">Oracle Software Delivery Cloud</a>.
+        <a href="https://yum.oracle.com/" target="_blank" style="color: #0073e6; text-decoration: underline;">Oracle Linux Yum server</a> e
+        <a href="https://edelivery.oracle.com/osdc/faces/Home.jspx" target="_blank" style="color: #0073e6; text-decoration: underline;">Oracle Software Delivery Cloud</a>.
         As imagens do contêiner estão disponíveis via
-        <a href="https://container-registry.oracle.com/" target="_blank" style="color: #0073e6; text-decoration: none; text-decoration: underline;">Oracle Container Registry</a>,
-        <a href="https://github.com/oracle/container-images" target="_blank" style="color: #0073e6; text-decoration: none; text-decoration: underline;">GitHub Container Registry</a>, e
-        <a href="https://hub.docker.com/u/oracle" target="_blank" style="color: #0073e6; text-decoration: none; text-decoration: underline;">Docker Hub</a>.
+        <a href="https://container-registry.oracle.com/" target="_blank" style="color: #0073e6; text-decoration: underline;">Oracle Container Registry</a>,
+        <a href="https://github.com/oracle/container-images" target="_blank" style="color: #0073e6; text-decoration: underline;">GitHub Container Registry</a>, e
+        <a href="https://hub.docker.com/u/oracle" target="_blank" style="color: #0073e6; text-decoration: underline;">Docker Hub</a>.
       </p>
 
       <div style="margin-top: 2em; background-color: #f5f5f5; padding: 20px; border-left: 4px solid #d32f2f;">
         <h2 style="margin-top: 0; color: #c74634;">Destaques</h2>
-        <ul style="font-size: 1.1em; line-height: 1.6;">
-          <li>A métrica de preço é por par de CPUs físicas.</li>
-          <li>Para sistemas com mais de duas CPUs, você deve adquirir uma assinatura de suporte adicional para cada par de CPUs adicional.</li>
-          <li>Você deve adquirir o suporte básico do Oracle Linux para todas as CPUs físicas nos sistemas em que executará o Oracle Linux.</li>
-          <li>Os serviços de suporte básico do Oracle Linux estão disponíveis para cada par de CPU física em um servidor físico ou para uso com até duas máquinas virtuais por par de CPU física.</li>
-          <li>Não há custo de licença associado ao Oracle Linux. O preço é de US$ 0 por licença e todas as cobranças são relacionadas aos serviços.</li>
+        <ul style="font-size: 1.1em; line-height: 1.6; padding-left: 20px;">
+          <li style="margin-bottom: 8px;">A métrica de preço é por par de CPUs físicas.</li>
+          <li style="margin-bottom: 8px;">Para sistemas com mais de duas CPUs, você deve adquirir uma assinatura de suporte adicional para cada par de CPUs adicional.</li>
+          <li style="margin-bottom: 8px;">Você deve adquirir o suporte básico do Oracle Linux para todas as CPUs físicas nos sistemas em que executará o Oracle Linux.</li>
+          <li style="margin-bottom: 8px;">Os serviços de suporte básico do Oracle Linux estão disponíveis para cada par de CPU física em um servidor físico ou para uso com até duas máquinas virtuais por par de CPU física.</li>
+          <li style="margin-bottom: 8px;">Não há custo de licença associado ao Oracle Linux. O preço é de US$ 0 por licença e todas as cobranças são relacionadas aos serviços.</li>
         </ul>
-        <p style="font-size: 1.1em; line-height: 1.6;"><a href="https://www.oracle.com/linux/support/" target="_blank" style="color: #0073e6; text-decoration: none; text-decoration: underline;">Mais detalhes sobre Oracle Linux Support</a></p>
+        <p style="font-size: 1.1em; line-height: 1.6; margin-top: 1em;">
+          <a href="https://www.oracle.com/linux/support/" target="_blank" style="color: #0073e6; text-decoration: underline; font-weight: bold;">Mais detalhes sobre Oracle Linux Support</a>
+        </p>
       </div>
     </div>
 
     <div style="flex: 1; min-width: 250px; display: flex; align-items: flex-start; justify-content: center;">
-      <img src="https://shop.oracle.com/i/ostore/oimg/OracleLinuxPenguin.jpg" alt="Oracle Linux" style="max-width: 100%; height: auto; border-radius: 8px;">
+      <img src="https://shop.oracle.com/i/ostore/oimg/OracleLinuxPenguin.jpg" alt="Oracle Linux" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     </div>
   </div>
 </body>
